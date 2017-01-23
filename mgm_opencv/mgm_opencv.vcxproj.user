@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;$(TBB_INSTALL_DIR)\bin\intel64\vc12</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-statfile "test.txt" -P2 320 -P1 80 -r -129 -R -16 -occlusions 0  -t census  -s vfit -O 8  -folder Adirondack data2/Adirondack/im0.png data2/Adirondack/im1.png data2/Adirondack/disp.tif data2/Adirondack/disp0GT.pfm data2/Adirondack/mask0nocc.png</LocalDebuggerCommandArguments>
+    <LocalDebuggerMergeEnvironment>true</LocalDebuggerMergeEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;$(TBB_INSTALL_DIR)\bin\intel64\vc12</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-P2 320 -P1 160 -r -140 -R -60 -occlusions 1  -t census -aThresh 50  -s vfit -O 8 -folder faces -calib "data2/faces/cams.xml" -out3d "data2/faces/out.ply" -dmaskl "data2/faces/im0mask.png" -dmaskr "data2/faces/im1mask.png"  data2/faces/im0.png data2/faces/im1.png data2/faces/disp.tif </LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>
