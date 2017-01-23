@@ -5,4 +5,6 @@ Original MGM's code is located at https://github.com/gfacciol/mgm
 
 
 -MGM folder contains MGM's OpenCV implementation inside with some new occlusion handling methods and new cost function methods. Entry point is mgm.cc (call it without params to see help)
+
+
 -Convolution Neural Network folder contains modified tiny-cnn's version for utilizing new MGM's cost function called 'CNN' based on siamese nets and some new CNN's loss function (entry point is example/main.cpp for test and training)
