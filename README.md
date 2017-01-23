@@ -1,4 +1,4 @@
-This is MGM code adapted to the OpenCV that was originally written by Gabriele Facciolo, 
+This is MGM (More Global Matching, stereovision algo http://dev.ipol.im/~facciolo/mgm/mgm.pdf) code adapted to the OpenCV that was originally written by Gabriele Facciolo, 
 Carlo de Franchis, and Enric Meinhardt and extended (e.g. convolutional neural networks' method was integrated and some other methods as well) here for some new methods by Sergei Ovchinnikov.
 See the paper improvement_of_semiglobal_stereomatching_algo_ovchinnikov.pdf for details.
 Original MGM's code is located at https://github.com/gfacciol/mgm
